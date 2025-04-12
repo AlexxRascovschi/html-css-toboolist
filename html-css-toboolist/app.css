@@ -1,0 +1,33 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 236, 236);;
+}
+
+/* LAYOUT */
+.container {
+    max-width: 800px;
+    padding: 24px;
+    margin: 0 auto;
+}
+
+/* HEADER  */
+.page-header {
+    background-color: #fefefe;
+    padding: 10px 24px; 
+}
+
+.page-header .logo {
+    height: 40px;
+}
+
+/* CONTENT  */
+.todo-card {
+    background-color: white;
+    border-radius: 10px;
+}
