@@ -6,7 +6,25 @@
 }
 
 body {
-    background-color: rgb(236, 236, 236);;
+    background-color: rgb(236, 236, 236);
+    padding: 40px;
+    list-style: none;
+    padding-left: 0%;
+}
+
+.space {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 30px;
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+ul {
+    list-style: none;
 }
 
 /* LAYOUT */
@@ -14,6 +32,17 @@ body {
     max-width: 800px;
     padding: 24px;
     margin: 0 auto;
+    border-radius: 10px;
+    }
+
+button {
+    margin: 5px;
+    padding: 10px;
+    /* border: none; */
+    /* background: #00aaff; */
+    /* color: white; */
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* HEADER  */
@@ -26,8 +55,115 @@ body {
     height: 40px;
 }
 
+/* BOTTONE BLU PIENO */
+.btn-primary {
+    background-color: #00aaff;
+    color: black;
+    border: 2px solid black;
+}
+
+/* BOTTONE CON SOLO BORDO OUTLINE */
+.btn-outline {
+    background-color: white;
+    color: black;
+    border: 2px solidblack;
+}
+
 /* CONTENT  */
 .todo-card {
     background-color: white;
     border-radius: 10px;
+    }
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tag-editorial {
+    background-color: #00aaff;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.goals {
+    background-color: darkmagenta;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.tag-recruiting {
+    background-color: rgb(28, 201, 144);
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.tag-mobile {
+    background-color: orange;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.tag-website{
+    background-color:deeppink ;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.tag-sales {
+    background-color: rgb(115, 192, 1);
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.check {
+    display:inline-block;
+    color: #28a745;
+    border: 2px solid #28a745;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.icon-x {
+    display: inline-block;
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 8px;
 }
